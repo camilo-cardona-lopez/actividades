@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float tiempo;
+	float distancia;
+	float resultado;
+	
+	cout<< "ingrese la distancia =";
+	cin>> distancia;
+	cout<< "ingrese el tiempo =";
+	cin>> tiempo;
+    resultado=distancia/tiempo;
+    cout<<"la velocidad de la particula es ="<<resultado;
+    
+    return 0;
+}
